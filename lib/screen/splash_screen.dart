@@ -6,7 +6,6 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    /// 자동 정렬 -> ctrl + alt + l
     Future.delayed(Duration(seconds: 2), () {
       Navigator.pushNamed(context, '/main');
     },);
