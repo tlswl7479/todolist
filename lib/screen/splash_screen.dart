@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// 시작 화면(Splash Screen) 일반적
+/// 시작 화면(Splash Screen)
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
