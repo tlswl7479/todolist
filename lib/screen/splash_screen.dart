@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 /// 시작 화면 (Splash_Screen)
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 2), () {
